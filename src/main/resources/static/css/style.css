@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #0e0e0e;
+  color: #fff;
+}
+
+/* ======= INICIO ======= */
+.Homeinicio {
+  min-height: 100vh;
+  background: 
+    linear-gradient(to bottom, rgba(0,0,0,0) 60%, rgba(14,14,14,1) 100%),
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url("../img/image\ 22.png") no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+/* ======= HEATHER ======= */
+.cabeca {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+}
+
+.cabeca a {
+  color: #fff;
+  margin-left: 30px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.cabeca a:hover {
+  color: #E5C060;
+}
+
+/* ======= TÍTULO E TEXTO ======= */
+.tituloprincipal {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.Homeinicio p {
+  max-width: 600px;
+  line-height: 1.5;
+  font-size: 1.1rem;
+  color: #dcdcdc;
+  margin-bottom: 40px;
+}
+
+/* ======= BOTÕES ======= */
+.botoes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; 
+  margin-top: 30px;
+  flex-wrap: wrap; 
+}
+
+.botaologin button,
+.botaocadastro button {
+  background-color: #E5C060;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1D3125;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.botaologin button:hover,
+.botaocadastro button:hover {
+  transform: translateY(-3px);
+  background-color: #ffe092;
+}
+
+
+/* ======= SOBRE NÓS ======= */
+.sobrenos {
+  background-color: #111;
+  padding: 80px 10%;
+  text-align: left;
+}
+
+.sobrenos h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.sobrenos p {
+  line-height: 1.8;
+  color: #ccc;
+}
+
+/* ======= BENEFÍCIOS ======= */
+.Beneficios {
+  background-color: #0c0c0c;
+  padding: 80px 10%;
+}
+
+.Beneficios h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.Beneficios p {
+  line-height: 1.8;
+  color: #ccc;
+}
+
+/* ======= RODAPÉ ======= */
+footer {
+  background-color: #E5C060;
+  text-align: center;
+  padding: 30px;
+  font-size: 0.9rem;
+  color: #1f1f1f;
+}
