@@ -1,4 +1,3 @@
-/* RESET */
 * {
   margin: 0;
   padding: 0;
@@ -11,9 +10,7 @@ body {
   color: #fff;
 }
 
-/* ===========================
-          HOME
-=========================== */
+/*inicio*/
 
 .Homeinicio {
   min-height: 100vh;
@@ -81,9 +78,7 @@ button:hover {
   transition: transform 0.3s ease, background-color 0.3s ease;
   transform: scale(1.1);
 }
-/* ===========================
-        SOBRE NÓS
-=========================== */
+/*sobre nos*/
 
 .sobrenos {
   display: flex;
@@ -113,9 +108,7 @@ button:hover {
   color: #ccc;
 }
 
-/* ===========================
-        BENEFÍCIOS
-=========================== */
+/*beneficios*/
 
 .Beneficios {
   display: flex;
@@ -124,8 +117,6 @@ button:hover {
   gap: 50px;
   padding: 100px 10%;
   background-color: #0c0c0c;
-
-  /* Coloca a imagem do lado direito */
   flex-direction: row-reverse;
 }
 
@@ -148,9 +139,7 @@ button:hover {
   color: #ccc;
 }
 
-/* ===========================
-         RODAPÉ
-=========================== */
+/*rodape*/
 footer {
   background-color: #E5C060;
   text-align: center;
