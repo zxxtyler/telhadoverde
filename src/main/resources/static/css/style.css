@@ -80,7 +80,7 @@ button:hover {
 }
 /*sobre nos*/
 
-.sobrenos {
+#sobrenos {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -110,7 +110,7 @@ button:hover {
 
 /*beneficios*/
 
-.Beneficios {
+#Beneficios {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -147,3 +147,4 @@ footer {
   color: #1a1a1a;
   font-weight: bold;
 }
+
